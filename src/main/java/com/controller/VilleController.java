@@ -36,7 +36,7 @@ public class VilleController {
 	//public String insert(@RequestBody String num) {
 	    System.out.println("Appel POST");
 	    System.out.println("ville Post : " + ville.toString());
-
+ 
 	    villeService.insertVille(ville);
 		return "index";
 	}
