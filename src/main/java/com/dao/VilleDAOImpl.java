@@ -9,9 +9,17 @@ public class VilleDAOImpl implements VilleDAO{
 
 	@Override
 	public Ville findVille() {
-		Ville ville = new Ville();
-		ville.setCodeCommune("plop");
-		ville.setNomCommune("plop");
-		return ville;
+		Ville villeTmp = new Ville();
+		villeTmp.setCodeCommune("plop");
+		villeTmp.setNomCommune("plop");
+		return villeTmp;
+	}
+	
+	@Override
+	public Ville saveVille(Ville ville) {
+		Ville villeTmp = new Ville();
+		villeTmp.setCodeCommune("plop");
+		villeTmp.setNomCommune("plop");
+		return villeTmp;
 	}
 }

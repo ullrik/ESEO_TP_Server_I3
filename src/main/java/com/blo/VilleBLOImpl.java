@@ -18,5 +18,12 @@ public class VilleBLOImpl implements VilleBLO {
 		Ville ville = villeDAO.findVille();
 		return ville;
 	}
+	
+	@Override
+	public Ville insertVille(Ville ville) {
+		// code metier
+		Ville villeTmp = villeDAO.saveVille(ville);
+		return villeTmp;
+	}
 
 }
